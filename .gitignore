@@ -1,0 +1,12 @@
+build/
+.vscode/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exe
+*.dll
+*.lib
+*.exp
+
+
