@@ -337,7 +337,7 @@ int main()
 
         //reset cursor
         printf("\033[%d;%dH", (0), (0));
-        fputs("\e[?25l", stdout);
+        fputs("\033[?25l", stdout);
 
     }
 
