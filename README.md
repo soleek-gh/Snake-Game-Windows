@@ -1,4 +1,4 @@
-#Snake Game
+# Snake Game
 Simple snake terminal game made in c++ for windows
 
 
