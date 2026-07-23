@@ -13,7 +13,7 @@ Simple snake terminal game made in c++ for windows
 1. git clone https://github.com/soleek-gh/Snake-Game-Windows.git
 2. go in the folder name snake-game-windows
 3. open a terminal inside the folder and run cmake -S . -B build
-4. cmake --build build --config Release
+4. type cmake --build build --config Release
 5. open the snake game in the release folder 
 
 ## Controls
