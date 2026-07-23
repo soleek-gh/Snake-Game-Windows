@@ -167,8 +167,8 @@ int main()
     const char* map_symbol = " "; //add "." for debugging
 
     const char* borders_symbol[2];
-    borders_symbol[0] = "|"; //side
-    borders_symbol[1] = "-"; // top - bottom
+    borders_symbol[0] = "#"; //side
+    borders_symbol[1] = "#"; // top - bottom
     
     GameState state = GameState::RUNNING;
 
