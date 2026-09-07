@@ -2,3 +2,9 @@ cmake_minimum_required(VERSION 4.3.3)
 project(SnakeConsoleGame VERSION 1.0.0)
 add_executable(snakeGame)
 target_sources(snakeGame PRIVATE src/snake.cpp)
+
+
+add_custom_command(TARGET snakeGame POST_BUILD
+    COMMAND cmd /c start "" "$<TARGET_FILE:snakeGame>"
+    WORKING_DIRECTORY "$<TARGET_FILE_DIR:snakeGame>"
+)
