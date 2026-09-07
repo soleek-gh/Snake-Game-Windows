@@ -17,6 +17,7 @@ cd snake-game-windows
 cmake -S . -B build
 cmake --build build --config Release
 ```
+Make sure to launch the game in a new terminal to avoid graphical issues
 
 ## Controls
 
